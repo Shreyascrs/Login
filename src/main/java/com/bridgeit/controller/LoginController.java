@@ -29,6 +29,7 @@ public class LoginController extends HttpServlet{
 		if(check==true)
 		{
 			System.out.println("login successfull");
+			req.setAttribute("name", username);
 			req.getRequestDispatcher("Welcome.jsp").forward(req, resp);
 		}
 		else

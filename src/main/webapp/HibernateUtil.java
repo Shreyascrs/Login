@@ -9,7 +9,6 @@ public class HibernateUtil {
 	
 
 static SessionFactory sessionFactory= null;
-@SuppressWarnings("deprecation")
 public static SessionFactory getSessionFactory() 
 {
 	Configuration configuration = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(User.class);

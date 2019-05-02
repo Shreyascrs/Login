@@ -8,7 +8,7 @@
 </head>
 <body>
 <form method="post" action="password">
-<table align="center" style="color:black">
+<table >
 <tr>
 <td align="center" colspan="2"><b>change password</b></td>
 </tr>

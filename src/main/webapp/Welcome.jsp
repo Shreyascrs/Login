@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body style="background-color: cyan" align="center">
-<center> <h1> welcome </h1></center>
+
+<center> <h1 align="right"> welcome <%= request.getAttribute("name") %> </h1></center>
 </body>
 </html>

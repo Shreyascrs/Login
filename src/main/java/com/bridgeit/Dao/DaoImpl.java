@@ -50,5 +50,16 @@ public class DaoImpl implements IDao{
 		
 		return false;
 	}
+	public void changepassword(String username, String newpassword) {
+		// TODO Auto-generated method stub
+		Session session=HibernateUtil.getSessionFactory().openSession();
+		org.hibernate.Transaction tran=(org.hibernate.Transaction) session.beginTransaction();
+		User user= (User) session.get(User.class, username);
+		user.setPassword(newpassword);
+		System.out.println(user.toString());
+		 session.save(user);
+		 tran.commit();
+
+	}
 
 }

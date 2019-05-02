@@ -4,10 +4,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>LOGIN FORM</title>
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 <form method="post" action="login">
+<div align="center" style="vertical-align:bottom">
+<div align="center" style="vertical-align:bottom">
 <table align="center" style="color:black">
 <tr>
 <td align="center" colspan="2"><b>LOG IN</b></td>
@@ -15,13 +19,13 @@
 
 <tr>
 <td>User Name</td>
-<td><input type="text" name="username" required/></td>
+<td><input type="text" name="username"  required/></td>
 </tr>
 
 
 <tr>
 <td>Pass Word</td>
-<td><input type="password" name="password" /></td>
+<td><input type="password" name="password"  /></td>
 </tr>
 
 <td>
@@ -30,6 +34,6 @@
 </td>
 </table>
 </form>
-<a href="forgetpassword.jsp"><input type="submit" value="forgot password"/></a>
+<p align="center"><a href="forgetpassword.jsp"><input type="submit" value="forgot password"/></a></p>
 </body>
 </html>

@@ -12,8 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.bridgeit.Dao.DaoImpl;
 import com.bridgeit.Dao.IDao;
-
-
 @SuppressWarnings("serial")
 @WebServlet("/password")
 public class Changepassword extends HttpServlet {

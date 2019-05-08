@@ -1,0 +1,7 @@
+com/bridgeit/pojo/User.class
+com/bridgeit/controller/Changepassword.class
+com/bridgeit/Dao/IDao.class
+com/bridgeit/controller/LoginController.class
+com/bridgeit/Dao/DaoImpl.class
+com/bridgeit/HibernateUtility/HibernateUtil.class
+com/bridgeit/controller/RegistrationController.class

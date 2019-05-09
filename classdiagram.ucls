@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.bridgeit.controller.LoginController" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/controller/LoginController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="286" x="274" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="2" language="java" name="com.bridgeit.pojo" project="lOGIN" file="/lOGIN/src/main/java/com/bridgeit/pojo" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="122" x="600" y="45"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="3" language="java" name="com.bridgeit.controller.RegistrationController" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/controller/RegistrationController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="286" x="762" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="com.bridgeit.controller" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="153" x="1324" y="45"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="com.bridgeit.HibernateUtility.HibernateUtil" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/HibernateUtility/HibernateUtil.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="198" x="1517" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.bridgeit.controller.Changepassword" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/controller/Changepassword.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="286" x="1755" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.bridgeit.Dao.DaoImpl" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/Dao/DaoImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="151" width="196" x="1088" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.bridgeit.pojo.User" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/pojo/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="421" width="166" x="2081" y="45"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="com.bridgeit.Dao.IDao" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/Dao/IDao.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="196" x="1088" y="506"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="10" language="java" name="com.bridgeit.HibernateUtility" project="lOGIN" 
+    file="/lOGIN/src/main/java/com/bridgeit/HibernateUtility" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="187" x="2287" y="45"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="11" language="java" name="com.bridgeit.Dao" project="lOGIN" file="/lOGIN/src/main/java/com/bridgeit/Dao" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="48" width="121" x="2514" y="45"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <realization id="12">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
